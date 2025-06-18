@@ -13,7 +13,3 @@ def call_api():
     except requests.RequestException as e:
         return {"error": str(e)}
 
-def printfunction():
-    a = rand()
-    print a
-    return a
