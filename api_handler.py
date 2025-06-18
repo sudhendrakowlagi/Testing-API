@@ -12,3 +12,8 @@ def call_api():
         return response.json()
     except requests.RequestException as e:
         return {"error": str(e)}
+
+def printfunction():
+    a = rand()
+    print a
+    return a
